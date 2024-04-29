@@ -1,2 +1,3 @@
-# pool-config
-Config files for Vesu pools
+# Vesu Pool Config
+
+Contains generated config files for Vesu pools
