@@ -85,7 +85,7 @@
       "target_rate_percent": 0.2
     }
   ],
-  "pair_parametesr": [
+  "pair_parameters": [
     {
       "debt_asset_name": "ethereum",
       "collateral_asset_name": "wrapped-bitcoin",
