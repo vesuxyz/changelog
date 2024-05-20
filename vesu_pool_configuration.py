@@ -1,27 +1,15 @@
+# -*- coding: utf-8 -*-
 """
 # Vesu Pool Configuration
 
-This script allows for the preparation of a configuration file from which new Vesu pools can be created. A pool configuration consists of three parameter sets:
+This notebook allows for the preparation of a configuration file from which new Vesu pools can be created. A pool configuration consists of three parameter sets:
 
 - Pool parameters: parameters that apply to the entire pool
 - Asset parametesr: parameters that apply to an asset in the pool
 - Pair parameters: parameters that apply to a lending pair in the pool
 
-While developers are free to create and configure Vesu pools at their own liking, in this script we assume that the basic configuration is provided as an input and derive certain risk parameters programmatically.
+While developers are free to create and configure Vesu pools at their own liking, in this notebook we assume that the basic configuration is provided as an input and derive certain risk parameters programmatically.
 
-"""
-
-"""
-# Requirements
-
-- pandas
-- requests
-- numpy
-- itertools
-- json
-"""
-
-"""
 # Input Parameters
 
 These parameters represent the basic configuration of a Vesu pool including the enabled supply assets and lending pairs.
@@ -52,6 +40,10 @@ asset_parameters = [
         "timeout": 14400,
         "number_of_sources": 4
     },
+    "v_token": {
+        "v_token_name": "Vesu Ether",
+        "v_token_symbol": "vETH"
+    },
     "debt_cap": 50000000,
     "floor": 100,
     "max_utilization": 0.95,
@@ -80,6 +72,10 @@ asset_parameters = [
         "pragma_key": "WBTC/USD",
         "timeout": 14400,
         "number_of_sources": 4
+    },
+    "v_token": {
+        "v_token_name": "Vesu Wrapped BTC",
+        "v_token_symbol": "vWBTC"
     },
     "debt_cap": 50000000,
     "floor": 100,
@@ -110,6 +106,10 @@ asset_parameters = [
         "timeout": 14400,
         "number_of_sources": 4
     },
+    "v_token": {
+        "v_token_name": "Vesu USD Coin",
+        "v_token_symbol": "vUSDC"
+    },
     "debt_cap": 50000000,
     "floor": 100,
     "max_utilization": 0.95,
@@ -138,6 +138,10 @@ asset_parameters = [
         "pragma_key": "USDT/USD",
         "timeout": 14400,
         "number_of_sources": 4
+    },
+    "v_token": {
+        "v_token_name": "Vesu Tether USD",
+        "v_token_symbol": "vUSDT"
     },
     "debt_cap": 50000000,
     "floor": 100,
@@ -168,6 +172,10 @@ asset_parameters = [
         "timeout": 14400,
         "number_of_sources": 4
     },
+    "v_token": {
+        "v_token_name": "Vesu Wrapped Staked Ether",
+        "v_token_symbol": "vWSTETH"
+    },
     "debt_cap": 50000000,
     "floor": 100,
     "max_utilization": 0.95,
@@ -196,6 +204,10 @@ asset_parameters = [
         "pragma_key": "STRK/USD",
         "timeout": 14400,
         "number_of_sources": 4
+    },
+    "v_token": {
+        "v_token_name": "Vesu Starknet",
+        "v_token_symbol": "vSTRK"
     },
     "debt_cap": 50000000,
     "floor": 100,
@@ -409,9 +421,12 @@ This model relies on the assumption of log-normal price movements and is calibra
 The model offers a simplified, yet intuitive and practical, approach to deriving appropriate risk parameters for a Vesu pool. The model further allows for the assessment of market risk given a pool's loan-to-value ratio and market conditions.
 
 [1] https://github.com/Risk-DAO/Reports/blob/main/a-smart-contract-ltv-formula.pdf
+"""
 
+# Commented out IPython magic to ensure Python compatibility.
+# %pip install requests
 
-## Fetch prices
+"""## Fetch prices
 
 We use the CoinGecko API to fetch daily prices for the various assets in a pool.
 
@@ -423,9 +438,11 @@ Furthermore, note that a Coingecko pro-account is needed in order to access an a
 """
 
 import requests
+import pandas as pd
+from google.colab import userdata
 
 # static params
-cg_key = ""                                   # Add your CG pro account API key
+cg_key = userdata.get('cg_key')               # fetch CG pro account API key
 url = 'https://pro-api.coingecko.com/api/v3/' # CG pro endpoint
 currency = 'usd'                              # denote prices in USD
 days = 'max'                                  # max price history

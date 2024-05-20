@@ -15,6 +15,10 @@
         "timeout": 14400,
         "number_of_sources": 4
       },
+      "v_token": {
+        "v_token_name": "Vesu Ether",
+        "v_token_symbol": "vETH"
+      },
       "debt_cap": 50000000,
       "floor": 100,
       "max_utilization": 0.95,
@@ -43,6 +47,10 @@
         "pragma_key": "WBTC/USD",
         "timeout": 14400,
         "number_of_sources": 4
+      },
+      "v_token": {
+        "v_token_name": "Vesu Wrapped BTC",
+        "v_token_symbol": "vWBTC"
       },
       "debt_cap": 50000000,
       "floor": 100,
@@ -73,6 +81,10 @@
         "timeout": 14400,
         "number_of_sources": 4
       },
+      "v_token": {
+        "v_token_name": "Vesu USD Coin",
+        "v_token_symbol": "vUSDC"
+      },
       "debt_cap": 50000000,
       "floor": 100,
       "max_utilization": 0.95,
@@ -101,6 +113,10 @@
         "pragma_key": "USDT/USD",
         "timeout": 14400,
         "number_of_sources": 4
+      },
+      "v_token": {
+        "v_token_name": "Vesu Tether USD",
+        "v_token_symbol": "vUSDT"
       },
       "debt_cap": 50000000,
       "floor": 100,
@@ -131,6 +147,10 @@
         "timeout": 14400,
         "number_of_sources": 4
       },
+      "v_token": {
+        "v_token_name": "Vesu Wrapped Staked Ether",
+        "v_token_symbol": "vWSTETH"
+      },
       "debt_cap": 50000000,
       "floor": 100,
       "max_utilization": 0.95,
@@ -159,6 +179,10 @@
         "pragma_key": "STRK/USD",
         "timeout": 14400,
         "number_of_sources": 4
+      },
+      "v_token": {
+        "v_token_name": "Vesu Starknet",
+        "v_token_symbol": "vSTRK"
       },
       "debt_cap": 50000000,
       "floor": 100,
