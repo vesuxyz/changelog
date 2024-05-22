@@ -1,0 +1,510 @@
+{
+  "asset_parameters": [
+    {
+      "asset_name": "ethereum",
+      "token": {
+        "address": "0x294922c35515353b3bcbc43bf4c8dfeaeeff19bd470ae2c8067f322864c435a",
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18,
+        "is_legacy": false
+      },
+      "oracle": {
+        "address": "0x2d75a8cdfcef00a500b101253b8a107923f0315e3a0ce161014ad90198ed3c8",
+        "pragma_key": "ETH/USD",
+        "timeout": 14400,
+        "number_of_sources": 4
+      },
+      "v_token": {
+        "v_token_name": "Vesu Ether",
+        "v_token_symbol": "vETH"
+      },
+      "debt_cap": 50000000,
+      "floor": 100,
+      "max_utilization": 0.95,
+      "target_utilization": 0.8,
+      "min_target_utilization": 0.78,
+      "max_target_utilization": 0.82,
+      "min_full_utilization_rate": "0.000000000160350400",
+      "max_full_utilization_rate": "0.000000035320611769",
+      "initial_full_utilization_rate": "0.000000013035786672",
+      "zero_utilization_rate": "0.000000000032134073",
+      "rate_half_life": 86400,
+      "target_rate_percent": 0.2,
+      "fee_rate": 0
+    },
+    {
+      "asset_name": "wrapped-bitcoin",
+      "token": {
+        "address": "0x12800e6256d82a2b13acf444a023895ed608dc08a42d6c07bf362282d6b16c3",
+        "name": "Wrapped BTC",
+        "symbol": "WBTC",
+        "decimals": 8,
+        "is_legacy": false
+      },
+      "oracle": {
+        "address": "0x2d75a8cdfcef00a500b101253b8a107923f0315e3a0ce161014ad90198ed3c8",
+        "pragma_key": "WBTC/USD",
+        "timeout": 14400,
+        "number_of_sources": 4
+      },
+      "v_token": {
+        "v_token_name": "Vesu Wrapped BTC",
+        "v_token_symbol": "vWBTC"
+      },
+      "debt_cap": 50000000,
+      "floor": 100,
+      "max_utilization": 0.95,
+      "target_utilization": 0.8,
+      "min_target_utilization": 0.78,
+      "max_target_utilization": 0.82,
+      "min_full_utilization_rate": "0.000000000160350400",
+      "max_full_utilization_rate": "0.000000035320611769",
+      "initial_full_utilization_rate": "0.000000013035786672",
+      "zero_utilization_rate": "0.000000000032134073",
+      "rate_half_life": 86400,
+      "target_rate_percent": 0.2,
+      "fee_rate": 0
+    },
+    {
+      "asset_name": "usd-coin",
+      "token": {
+        "address": "0x1716dd51d75e5c20d1c22a1e55c6260f0f67ed0f47ab82f798c17e1455565b3",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "decimals": 6,
+        "is_legacy": false
+      },
+      "oracle": {
+        "address": "0x2d75a8cdfcef00a500b101253b8a107923f0315e3a0ce161014ad90198ed3c8",
+        "pragma_key": "USDC/USD",
+        "timeout": 14400,
+        "number_of_sources": 4
+      },
+      "v_token": {
+        "v_token_name": "Vesu USD Coin",
+        "v_token_symbol": "vUSDC"
+      },
+      "debt_cap": 50000000,
+      "floor": 100,
+      "max_utilization": 0.95,
+      "target_utilization": 0.8,
+      "min_target_utilization": 0.78,
+      "max_target_utilization": 0.82,
+      "min_full_utilization_rate": "0.000000000160350400",
+      "max_full_utilization_rate": "0.000000035320611769",
+      "initial_full_utilization_rate": "0.000000013035786672",
+      "zero_utilization_rate": "0.000000000032134073",
+      "rate_half_life": 86400,
+      "target_rate_percent": 0.2,
+      "fee_rate": 0
+    },
+    {
+      "asset_name": "tether",
+      "token": {
+        "address": "0x43cd405dd4254e2bde5674cf3ac70c041bdb3db08b962810b3701ae0d22a8e6",
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "decimals": 6,
+        "is_legacy": false
+      },
+      "oracle": {
+        "address": "0x2d75a8cdfcef00a500b101253b8a107923f0315e3a0ce161014ad90198ed3c8",
+        "pragma_key": "USDT/USD",
+        "timeout": 14400,
+        "number_of_sources": 4
+      },
+      "v_token": {
+        "v_token_name": "Vesu Tether USD",
+        "v_token_symbol": "vUSDT"
+      },
+      "debt_cap": 50000000,
+      "floor": 100,
+      "max_utilization": 0.95,
+      "target_utilization": 0.8,
+      "min_target_utilization": 0.78,
+      "max_target_utilization": 0.82,
+      "min_full_utilization_rate": "0.000000000160350400",
+      "max_full_utilization_rate": "0.000000035320611769",
+      "initial_full_utilization_rate": "0.000000013035786672",
+      "zero_utilization_rate": "0.000000000032134073",
+      "rate_half_life": 86400,
+      "target_rate_percent": 0.2,
+      "fee_rate": 0
+    },
+    {
+      "asset_name": "wrapped-steth",
+      "token": {
+        "address": "0x5570e05835c65be58dbfe009982559ab5db177f1e4d7442e26faeddc836167c",
+        "name": "Starknet Wrapped Staked Ether",
+        "symbol": "wstETH",
+        "decimals": 18,
+        "is_legacy": false
+      },
+      "oracle": {
+        "address": "0x2d75a8cdfcef00a500b101253b8a107923f0315e3a0ce161014ad90198ed3c8",
+        "pragma_key": "WSTETH/USD",
+        "timeout": 14400,
+        "number_of_sources": 4
+      },
+      "v_token": {
+        "v_token_name": "Vesu Wrapped Staked Ether",
+        "v_token_symbol": "vWSTETH"
+      },
+      "debt_cap": 50000000,
+      "floor": 100,
+      "max_utilization": 0.95,
+      "target_utilization": 0.8,
+      "min_target_utilization": 0.78,
+      "max_target_utilization": 0.82,
+      "min_full_utilization_rate": "0.000000000160350400",
+      "max_full_utilization_rate": "0.000000035320611769",
+      "initial_full_utilization_rate": "0.000000013035786672",
+      "zero_utilization_rate": "0.000000000032134073",
+      "rate_half_life": 86400,
+      "target_rate_percent": 0.2,
+      "fee_rate": 0
+    },
+    {
+      "asset_name": "starknet",
+      "token": {
+        "address": "0x2713fb67fb6ebfd3dcc2032aa0975c6ddf461e0ffc754c290ae13bb1e7c3266",
+        "name": "Starknet Token",
+        "symbol": "STRK",
+        "decimals": 18,
+        "is_legacy": false
+      },
+      "oracle": {
+        "address": "0x2d75a8cdfcef00a500b101253b8a107923f0315e3a0ce161014ad90198ed3c8",
+        "pragma_key": "STRK/USD",
+        "timeout": 14400,
+        "number_of_sources": 4
+      },
+      "v_token": {
+        "v_token_name": "Vesu Starknet",
+        "v_token_symbol": "vSTRK"
+      },
+      "debt_cap": 50000000,
+      "floor": 100,
+      "max_utilization": 0.95,
+      "target_utilization": 0.8,
+      "min_target_utilization": 0.78,
+      "max_target_utilization": 0.82,
+      "min_full_utilization_rate": "0.000000000160350400",
+      "max_full_utilization_rate": "0.000000035320611769",
+      "initial_full_utilization_rate": "0.000000013035786672",
+      "zero_utilization_rate": "0.000000000032134073",
+      "rate_half_life": 86400,
+      "target_rate_percent": 0.2,
+      "fee_rate": 0
+    }
+  ],
+  "pair_parameters": [
+    {
+      "debt_asset_name": "ethereum",
+      "collateral_asset_name": "wrapped-bitcoin",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.82,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x294922c35515353b3bcbc43bf4c8dfeaeeff19bd470ae2c8067f322864c435a",
+      "collateral_asset": "0x12800e6256d82a2b13acf444a023895ed608dc08a42d6c07bf362282d6b16c3"
+    },
+    {
+      "debt_asset_name": "ethereum",
+      "collateral_asset_name": "usd-coin",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.74,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x294922c35515353b3bcbc43bf4c8dfeaeeff19bd470ae2c8067f322864c435a",
+      "collateral_asset": "0x1716dd51d75e5c20d1c22a1e55c6260f0f67ed0f47ab82f798c17e1455565b3"
+    },
+    {
+      "debt_asset_name": "ethereum",
+      "collateral_asset_name": "tether",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.74,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x294922c35515353b3bcbc43bf4c8dfeaeeff19bd470ae2c8067f322864c435a",
+      "collateral_asset": "0x43cd405dd4254e2bde5674cf3ac70c041bdb3db08b962810b3701ae0d22a8e6"
+    },
+    {
+      "debt_asset_name": "ethereum",
+      "collateral_asset_name": "wrapped-steth",
+      "liquidation_discount": 0.95,
+      "risk_level_factor": 5,
+      "max_ltv": 0.87,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x294922c35515353b3bcbc43bf4c8dfeaeeff19bd470ae2c8067f322864c435a",
+      "collateral_asset": "0x5570e05835c65be58dbfe009982559ab5db177f1e4d7442e26faeddc836167c"
+    },
+    {
+      "debt_asset_name": "ethereum",
+      "collateral_asset_name": "starknet",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 3,
+      "max_ltv": 0.71,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x294922c35515353b3bcbc43bf4c8dfeaeeff19bd470ae2c8067f322864c435a",
+      "collateral_asset": "0x2713fb67fb6ebfd3dcc2032aa0975c6ddf461e0ffc754c290ae13bb1e7c3266"
+    },
+    {
+      "debt_asset_name": "wrapped-bitcoin",
+      "collateral_asset_name": "ethereum",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.82,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x12800e6256d82a2b13acf444a023895ed608dc08a42d6c07bf362282d6b16c3",
+      "collateral_asset": "0x294922c35515353b3bcbc43bf4c8dfeaeeff19bd470ae2c8067f322864c435a"
+    },
+    {
+      "debt_asset_name": "wrapped-bitcoin",
+      "collateral_asset_name": "usd-coin",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.74,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x12800e6256d82a2b13acf444a023895ed608dc08a42d6c07bf362282d6b16c3",
+      "collateral_asset": "0x1716dd51d75e5c20d1c22a1e55c6260f0f67ed0f47ab82f798c17e1455565b3"
+    },
+    {
+      "debt_asset_name": "wrapped-bitcoin",
+      "collateral_asset_name": "tether",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.74,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x12800e6256d82a2b13acf444a023895ed608dc08a42d6c07bf362282d6b16c3",
+      "collateral_asset": "0x43cd405dd4254e2bde5674cf3ac70c041bdb3db08b962810b3701ae0d22a8e6"
+    },
+    {
+      "debt_asset_name": "wrapped-bitcoin",
+      "collateral_asset_name": "wrapped-steth",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.75,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x12800e6256d82a2b13acf444a023895ed608dc08a42d6c07bf362282d6b16c3",
+      "collateral_asset": "0x5570e05835c65be58dbfe009982559ab5db177f1e4d7442e26faeddc836167c"
+    },
+    {
+      "debt_asset_name": "wrapped-bitcoin",
+      "collateral_asset_name": "starknet",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 3,
+      "max_ltv": 0.59,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x12800e6256d82a2b13acf444a023895ed608dc08a42d6c07bf362282d6b16c3",
+      "collateral_asset": "0x2713fb67fb6ebfd3dcc2032aa0975c6ddf461e0ffc754c290ae13bb1e7c3266"
+    },
+    {
+      "debt_asset_name": "usd-coin",
+      "collateral_asset_name": "ethereum",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.68,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x1716dd51d75e5c20d1c22a1e55c6260f0f67ed0f47ab82f798c17e1455565b3",
+      "collateral_asset": "0x294922c35515353b3bcbc43bf4c8dfeaeeff19bd470ae2c8067f322864c435a"
+    },
+    {
+      "debt_asset_name": "usd-coin",
+      "collateral_asset_name": "wrapped-bitcoin",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.68,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x1716dd51d75e5c20d1c22a1e55c6260f0f67ed0f47ab82f798c17e1455565b3",
+      "collateral_asset": "0x12800e6256d82a2b13acf444a023895ed608dc08a42d6c07bf362282d6b16c3"
+    },
+    {
+      "debt_asset_name": "usd-coin",
+      "collateral_asset_name": "tether",
+      "liquidation_discount": 0.95,
+      "risk_level_factor": 5,
+      "max_ltv": 0.93,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x1716dd51d75e5c20d1c22a1e55c6260f0f67ed0f47ab82f798c17e1455565b3",
+      "collateral_asset": "0x43cd405dd4254e2bde5674cf3ac70c041bdb3db08b962810b3701ae0d22a8e6"
+    },
+    {
+      "debt_asset_name": "usd-coin",
+      "collateral_asset_name": "wrapped-steth",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.72,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x1716dd51d75e5c20d1c22a1e55c6260f0f67ed0f47ab82f798c17e1455565b3",
+      "collateral_asset": "0x5570e05835c65be58dbfe009982559ab5db177f1e4d7442e26faeddc836167c"
+    },
+    {
+      "debt_asset_name": "usd-coin",
+      "collateral_asset_name": "starknet",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 3,
+      "max_ltv": 0.6,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x1716dd51d75e5c20d1c22a1e55c6260f0f67ed0f47ab82f798c17e1455565b3",
+      "collateral_asset": "0x2713fb67fb6ebfd3dcc2032aa0975c6ddf461e0ffc754c290ae13bb1e7c3266"
+    },
+    {
+      "debt_asset_name": "tether",
+      "collateral_asset_name": "ethereum",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.66,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x43cd405dd4254e2bde5674cf3ac70c041bdb3db08b962810b3701ae0d22a8e6",
+      "collateral_asset": "0x294922c35515353b3bcbc43bf4c8dfeaeeff19bd470ae2c8067f322864c435a"
+    },
+    {
+      "debt_asset_name": "tether",
+      "collateral_asset_name": "wrapped-bitcoin",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.65,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x43cd405dd4254e2bde5674cf3ac70c041bdb3db08b962810b3701ae0d22a8e6",
+      "collateral_asset": "0x12800e6256d82a2b13acf444a023895ed608dc08a42d6c07bf362282d6b16c3"
+    },
+    {
+      "debt_asset_name": "tether",
+      "collateral_asset_name": "usd-coin",
+      "liquidation_discount": 0.95,
+      "risk_level_factor": 5,
+      "max_ltv": 0.93,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x43cd405dd4254e2bde5674cf3ac70c041bdb3db08b962810b3701ae0d22a8e6",
+      "collateral_asset": "0x1716dd51d75e5c20d1c22a1e55c6260f0f67ed0f47ab82f798c17e1455565b3"
+    },
+    {
+      "debt_asset_name": "tether",
+      "collateral_asset_name": "wrapped-steth",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.63,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x43cd405dd4254e2bde5674cf3ac70c041bdb3db08b962810b3701ae0d22a8e6",
+      "collateral_asset": "0x5570e05835c65be58dbfe009982559ab5db177f1e4d7442e26faeddc836167c"
+    },
+    {
+      "debt_asset_name": "tether",
+      "collateral_asset_name": "starknet",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 3,
+      "max_ltv": 0.58,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x43cd405dd4254e2bde5674cf3ac70c041bdb3db08b962810b3701ae0d22a8e6",
+      "collateral_asset": "0x2713fb67fb6ebfd3dcc2032aa0975c6ddf461e0ffc754c290ae13bb1e7c3266"
+    },
+    {
+      "debt_asset_name": "wrapped-steth",
+      "collateral_asset_name": "ethereum",
+      "liquidation_discount": 0.95,
+      "risk_level_factor": 5,
+      "max_ltv": 0.87,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x5570e05835c65be58dbfe009982559ab5db177f1e4d7442e26faeddc836167c",
+      "collateral_asset": "0x294922c35515353b3bcbc43bf4c8dfeaeeff19bd470ae2c8067f322864c435a"
+    },
+    {
+      "debt_asset_name": "wrapped-steth",
+      "collateral_asset_name": "wrapped-bitcoin",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.81,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x5570e05835c65be58dbfe009982559ab5db177f1e4d7442e26faeddc836167c",
+      "collateral_asset": "0x12800e6256d82a2b13acf444a023895ed608dc08a42d6c07bf362282d6b16c3"
+    },
+    {
+      "debt_asset_name": "wrapped-steth",
+      "collateral_asset_name": "usd-coin",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.71,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x5570e05835c65be58dbfe009982559ab5db177f1e4d7442e26faeddc836167c",
+      "collateral_asset": "0x1716dd51d75e5c20d1c22a1e55c6260f0f67ed0f47ab82f798c17e1455565b3"
+    },
+    {
+      "debt_asset_name": "wrapped-steth",
+      "collateral_asset_name": "tether",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.73,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x5570e05835c65be58dbfe009982559ab5db177f1e4d7442e26faeddc836167c",
+      "collateral_asset": "0x43cd405dd4254e2bde5674cf3ac70c041bdb3db08b962810b3701ae0d22a8e6"
+    },
+    {
+      "debt_asset_name": "wrapped-steth",
+      "collateral_asset_name": "starknet",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 3,
+      "max_ltv": 0.68,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x5570e05835c65be58dbfe009982559ab5db177f1e4d7442e26faeddc836167c",
+      "collateral_asset": "0x2713fb67fb6ebfd3dcc2032aa0975c6ddf461e0ffc754c290ae13bb1e7c3266"
+    },
+    {
+      "debt_asset_name": "starknet",
+      "collateral_asset_name": "ethereum",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 3,
+      "max_ltv": 0.57,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x2713fb67fb6ebfd3dcc2032aa0975c6ddf461e0ffc754c290ae13bb1e7c3266",
+      "collateral_asset": "0x294922c35515353b3bcbc43bf4c8dfeaeeff19bd470ae2c8067f322864c435a"
+    },
+    {
+      "debt_asset_name": "starknet",
+      "collateral_asset_name": "wrapped-bitcoin",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 3,
+      "max_ltv": 0.46,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x2713fb67fb6ebfd3dcc2032aa0975c6ddf461e0ffc754c290ae13bb1e7c3266",
+      "collateral_asset": "0x12800e6256d82a2b13acf444a023895ed608dc08a42d6c07bf362282d6b16c3"
+    },
+    {
+      "debt_asset_name": "starknet",
+      "collateral_asset_name": "usd-coin",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 3,
+      "max_ltv": 0.59,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x2713fb67fb6ebfd3dcc2032aa0975c6ddf461e0ffc754c290ae13bb1e7c3266",
+      "collateral_asset": "0x1716dd51d75e5c20d1c22a1e55c6260f0f67ed0f47ab82f798c17e1455565b3"
+    },
+    {
+      "debt_asset_name": "starknet",
+      "collateral_asset_name": "tether",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 3,
+      "max_ltv": 0.57,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x2713fb67fb6ebfd3dcc2032aa0975c6ddf461e0ffc754c290ae13bb1e7c3266",
+      "collateral_asset": "0x43cd405dd4254e2bde5674cf3ac70c041bdb3db08b962810b3701ae0d22a8e6"
+    },
+    {
+      "debt_asset_name": "starknet",
+      "collateral_asset_name": "wrapped-steth",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 3,
+      "max_ltv": 0.55,
+      "shutdown_ltv": 1,
+      "debt_asset": "0x2713fb67fb6ebfd3dcc2032aa0975c6ddf461e0ffc754c290ae13bb1e7c3266",
+      "collateral_asset": "0x5570e05835c65be58dbfe009982559ab5db177f1e4d7442e26faeddc836167c"
+    }
+  ],
+  "pool_parameters": {
+    "owner": "0x0",
+    "fee_recipient": "0x0",
+    "recovery_period": 2592000,
+    "subscription_period": 1209600
+  }
+}
