@@ -18,6 +18,7 @@ These parameters represent the basic configuration of a Vesu pool including the 
 import pandas as pd
 
 pool_parameters = {
+    "name": "Genesis",             # initial pool
     "owner": "0x0",                # no owner
     "fee_recipient": "0x0",        # no fee
     "recovery_period": 2592000,    # 30 days in seconds
@@ -940,5 +941,5 @@ parameters = {
 }
 
 # Convert and write JSON object to file
-with open("pool_0_config.json", "w") as outfile:
+with open("config_genesis_sn_main.json", "w") as outfile:
     json.dump(parameters, outfile, indent=2)
