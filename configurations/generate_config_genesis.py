@@ -940,5 +940,5 @@ parameters = {
 }
 
 # Convert and write JSON object to file
-with open("pool_0_config.json", "w") as outfile:
+with open("config_genesis_sn_main.json", "w") as outfile:
     json.dump(parameters, outfile, indent=2)
