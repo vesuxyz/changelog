@@ -18,6 +18,7 @@ These parameters represent the basic configuration of a Vesu pool including the 
 import pandas as pd
 
 pool_parameters = {
+    "name": "Genesis",             # initial pool
     "owner": "0x0",                # no owner
     "fee_recipient": "0x0",        # no fee
     "recovery_period": 2592000,    # 30 days in seconds
