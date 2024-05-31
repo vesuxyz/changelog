@@ -502,7 +502,7 @@
     }
   ],
   "pool_parameters": {
-    "name": "Genesis",
+    "name": "Genesis Sepolia",
     "owner": "0x015A31931b6CDd0e3149a3F7dFF43cE34112e8773aF6fE29cC9206a0fA050e36",
     "fee_recipient": "0x0",
     "recovery_period": 2592000,
