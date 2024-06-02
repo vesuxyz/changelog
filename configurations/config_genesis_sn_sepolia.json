@@ -2,6 +2,7 @@
   "asset_parameters": [
     {
       "asset_name": "ethereum",
+      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/eth.png",
       "token": {
         "address": "0x3fab69f8a2b759851f9264fe120392691a8d7a904bd0bfe51093b1e0fdef84a",
         "name": "Ether",
@@ -35,6 +36,7 @@
     },
     {
       "asset_name": "wrapped-bitcoin",
+      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/wbtc.png",
       "token": {
         "address": "0x2c17412bd9bbf8668717204147ea0047c1a84387e585ac5b7e706f421694682",
         "name": "Wrapped BTC",
@@ -68,6 +70,7 @@
     },
     {
       "asset_name": "usd-coin",
+      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/usdc.png",
       "token": {
         "address": "0x4d812c27bd34fccc1fd82df7039a1bb5bcb8bd563a46c7bf1d9bbb08cd8801b",
         "name": "USD Coin",
@@ -101,6 +104,7 @@
     },
     {
       "asset_name": "tether",
+      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/usdt.png",
       "token": {
         "address": "0x70e7c2330f3dc97d5140b2659959da1271cb726509004f973c3a530d1f063cb",
         "name": "Tether USD",
@@ -134,6 +138,7 @@
     },
     {
       "asset_name": "wrapped-steth",
+      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/steth.png",
       "token": {
         "address": "0x5f7ece8b7f25a23e9d4e7ff2c2ccb2bc3c77909e5dcacde99ed83c90a71fa6d",
         "name": "Starknet Wrapped Staked Ether",
@@ -167,6 +172,7 @@
     },
     {
       "asset_name": "starknet",
+      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/strk.png",
       "token": {
         "address": "0x434afc3c7e95ac92cbe39b5fab87319a83376a2c694b570dbad921b06daa61d",
         "name": "Starknet Token",
