@@ -3,7 +3,7 @@
     {
       "asset_name": "ethereum",
       "token": {
-        "address": "0x3f82fa79c7faf4eff43892cfbe5f37393293c132424af4f9e220b1adb7a20d",
+        "address": "0x3fab69f8a2b759851f9264fe120392691a8d7a904bd0bfe51093b1e0fdef84a",
         "name": "Ether",
         "symbol": "ETH",
         "decimals": 18,
@@ -36,7 +36,7 @@
     {
       "asset_name": "wrapped-bitcoin",
       "token": {
-        "address": "0x6a24c5466e1111f35074279c9466b9129000b51333a130d95e171a868ce5066",
+        "address": "0x2c17412bd9bbf8668717204147ea0047c1a84387e585ac5b7e706f421694682",
         "name": "Wrapped BTC",
         "symbol": "WBTC",
         "decimals": 8,
@@ -69,7 +69,7 @@
     {
       "asset_name": "usd-coin",
       "token": {
-        "address": "0x3645557055f6131e7aa6b5895f11d48efce84ae6ecc7264986a565a23873e33",
+        "address": "0x4d812c27bd34fccc1fd82df7039a1bb5bcb8bd563a46c7bf1d9bbb08cd8801b",
         "name": "USD Coin",
         "symbol": "USDC",
         "decimals": 6,
@@ -102,7 +102,7 @@
     {
       "asset_name": "tether",
       "token": {
-        "address": "0x2ea3e4ae58bf44cd3e93a469bf266600821d291411471ccb12918edf141562e",
+        "address": "0x70e7c2330f3dc97d5140b2659959da1271cb726509004f973c3a530d1f063cb",
         "name": "Tether USD",
         "symbol": "USDT",
         "decimals": 6,
@@ -135,7 +135,7 @@
     {
       "asset_name": "wrapped-steth",
       "token": {
-        "address": "0x20ae5560751535a980ea8bfdb1a72cd45ee44d3dad7917b504136e1e66ed9ae",
+        "address": "0x5f7ece8b7f25a23e9d4e7ff2c2ccb2bc3c77909e5dcacde99ed83c90a71fa6d",
         "name": "Starknet Wrapped Staked Ether",
         "symbol": "wstETH",
         "decimals": 18,
@@ -168,7 +168,7 @@
     {
       "asset_name": "starknet",
       "token": {
-        "address": "0x3791bfd5dc63115fca53ec4468410232c85ddfd170efd9515619483c8541a5e",
+        "address": "0x434afc3c7e95ac92cbe39b5fab87319a83376a2c694b570dbad921b06daa61d",
         "name": "Starknet Token",
         "symbol": "STRK",
         "decimals": 18,
