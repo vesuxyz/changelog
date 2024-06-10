@@ -508,7 +508,7 @@
     }
   ],
   "pool_parameters": {
-    "name": "Genesis",
+    "name": "Genesis Pool",
     "owner": "0x03d92A8137e51eeE44B8Fb450d90f2CdA085B2568562c1B8695cBF11c06f9c8d",
     "fee_recipient": "0x0",
     "recovery_period": 2592000,
