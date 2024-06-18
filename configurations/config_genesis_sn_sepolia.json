@@ -69,24 +69,24 @@
       "fee_rate": 0
     },
     {
-      "asset_name": "usd-coin",
-      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/usdc.png",
+      "asset_name": "tether",
+      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/usdt.png",
       "token": {
         "address": "0x22532dd3881669fb4b9d475d0de87f72231294f176eb240436b9a387a080a2d",
-        "name": "USD Coin",
-        "symbol": "USDC",
+        "name": "Tether USD",
+        "symbol": "USDT",
         "decimals": 6,
         "is_legacy": false
       },
       "oracle": {
         "address": "0x5d9b56054c92a454cf672629dcc1b7ad3b1ddae4706b2a4ffcb8ef4d53d9b63",
-        "pragma_key": "USDC/USD",
+        "pragma_key": "USDT/USD",
         "timeout": 14400,
         "number_of_sources": 4
       },
       "v_token": {
-        "v_token_name": "Vesu USD Coin",
-        "v_token_symbol": "vUSDC"
+        "v_token_name": "Vesu Tether USD",
+        "v_token_symbol": "vUSDT"
       },
       "debt_cap": 50000000,
       "floor": 100,
@@ -103,24 +103,26 @@
       "fee_rate": 0
     },
     {
-      "asset_name": "tether",
-      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/usdt.png",
+      "asset_name": "usd-coin",
+      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/usdc.png",
       "token": {
         "address": "0x41a0736067f29ded62be0dce7d82978e466e1c2f9778dbeabd8f63a38004d59",
-        "name": "Tether USD",
-        "symbol": "USDT",
+
+        "name": "USD Coin",
+        "symbol": "USDC",
         "decimals": 6,
         "is_legacy": false
       },
+
       "oracle": {
         "address": "0x5d9b56054c92a454cf672629dcc1b7ad3b1ddae4706b2a4ffcb8ef4d53d9b63",
-        "pragma_key": "USDT/USD",
+        "pragma_key": "USDC/USD",
         "timeout": 14400,
         "number_of_sources": 4
       },
       "v_token": {
-        "v_token_name": "Vesu Tether USD",
-        "v_token_symbol": "vUSDT"
+        "v_token_name": "Vesu USD Coin",
+        "v_token_symbol": "vUSDC"
       },
       "debt_cap": 50000000,
       "floor": 100,
@@ -224,7 +226,7 @@
       "max_ltv": 0.74,
       "shutdown_ltv": 1,
       "debt_asset": "0x6a8d50894086d8c89bea424aec1460d4d1cb4e41f50c51a49ef352794c7db7c",
-      "collateral_asset": "0x22532dd3881669fb4b9d475d0de87f72231294f176eb240436b9a387a080a2d"
+      "collateral_asset": "0x41a0736067f29ded62be0dce7d82978e466e1c2f9778dbeabd8f63a38004d59"
     },
     {
       "debt_asset_name": "ethereum",
@@ -274,7 +276,7 @@
       "max_ltv": 0.74,
       "shutdown_ltv": 1,
       "debt_asset": "0x41a80f471aafecb1fb3f805b2e6f04e6e7babd102d67360bfb328be8100fbdf",
-      "collateral_asset": "0x22532dd3881669fb4b9d475d0de87f72231294f176eb240436b9a387a080a2d"
+      "collateral_asset": "0x41a0736067f29ded62be0dce7d82978e466e1c2f9778dbeabd8f63a38004d59"
     },
     {
       "debt_asset_name": "wrapped-bitcoin",
@@ -313,7 +315,7 @@
       "risk_level_factor": 5,
       "max_ltv": 0.68,
       "shutdown_ltv": 1,
-      "debt_asset": "0x22532dd3881669fb4b9d475d0de87f72231294f176eb240436b9a387a080a2d",
+      "debt_asset": "0x41a0736067f29ded62be0dce7d82978e466e1c2f9778dbeabd8f63a38004d59",
       "collateral_asset": "0x6a8d50894086d8c89bea424aec1460d4d1cb4e41f50c51a49ef352794c7db7c"
     },
     {
@@ -323,7 +325,7 @@
       "risk_level_factor": 5,
       "max_ltv": 0.68,
       "shutdown_ltv": 1,
-      "debt_asset": "0x22532dd3881669fb4b9d475d0de87f72231294f176eb240436b9a387a080a2d",
+      "debt_asset": "0x41a0736067f29ded62be0dce7d82978e466e1c2f9778dbeabd8f63a38004d59",
       "collateral_asset": "0x41a80f471aafecb1fb3f805b2e6f04e6e7babd102d67360bfb328be8100fbdf"
     },
     {
@@ -333,7 +335,7 @@
       "risk_level_factor": 5,
       "max_ltv": 0.93,
       "shutdown_ltv": 1,
-      "debt_asset": "0x22532dd3881669fb4b9d475d0de87f72231294f176eb240436b9a387a080a2d",
+      "debt_asset": "0x41a0736067f29ded62be0dce7d82978e466e1c2f9778dbeabd8f63a38004d59",
       "collateral_asset": "0x22532dd3881669fb4b9d475d0de87f72231294f176eb240436b9a387a080a2d"
     },
     {
@@ -343,7 +345,7 @@
       "risk_level_factor": 5,
       "max_ltv": 0.72,
       "shutdown_ltv": 1,
-      "debt_asset": "0x22532dd3881669fb4b9d475d0de87f72231294f176eb240436b9a387a080a2d",
+      "debt_asset": "0x41a0736067f29ded62be0dce7d82978e466e1c2f9778dbeabd8f63a38004d59",
       "collateral_asset": "0x29f2061923470e55805efa65f64bcffc80e8f37f0cab2d2c1ac14d3c9ec1e30"
     },
     {
@@ -353,7 +355,7 @@
       "risk_level_factor": 3,
       "max_ltv": 0.6,
       "shutdown_ltv": 1,
-      "debt_asset": "0x22532dd3881669fb4b9d475d0de87f72231294f176eb240436b9a387a080a2d",
+      "debt_asset": "0x41a0736067f29ded62be0dce7d82978e466e1c2f9778dbeabd8f63a38004d59",
       "collateral_asset": "0x21f4f3323df3e7c2f81f010fc7509035735369ab6169a1e6be759c36dd44c9e"
     },
     {
@@ -384,7 +386,7 @@
       "max_ltv": 0.93,
       "shutdown_ltv": 1,
       "debt_asset": "0x22532dd3881669fb4b9d475d0de87f72231294f176eb240436b9a387a080a2d",
-      "collateral_asset": "0x22532dd3881669fb4b9d475d0de87f72231294f176eb240436b9a387a080a2d"
+      "collateral_asset": "0x41a0736067f29ded62be0dce7d82978e466e1c2f9778dbeabd8f63a38004d59"
     },
     {
       "debt_asset_name": "tether",
@@ -434,7 +436,7 @@
       "max_ltv": 0.71,
       "shutdown_ltv": 1,
       "debt_asset": "0x29f2061923470e55805efa65f64bcffc80e8f37f0cab2d2c1ac14d3c9ec1e30",
-      "collateral_asset": "0x22532dd3881669fb4b9d475d0de87f72231294f176eb240436b9a387a080a2d"
+      "collateral_asset": "0x41a0736067f29ded62be0dce7d82978e466e1c2f9778dbeabd8f63a38004d59"
     },
     {
       "debt_asset_name": "wrapped-steth",
@@ -484,7 +486,7 @@
       "max_ltv": 0.59,
       "shutdown_ltv": 1,
       "debt_asset": "0x21f4f3323df3e7c2f81f010fc7509035735369ab6169a1e6be759c36dd44c9e",
-      "collateral_asset": "0x22532dd3881669fb4b9d475d0de87f72231294f176eb240436b9a387a080a2d"
+      "collateral_asset": "0x41a0736067f29ded62be0dce7d82978e466e1c2f9778dbeabd8f63a38004d59"
     },
     {
       "debt_asset_name": "starknet",
