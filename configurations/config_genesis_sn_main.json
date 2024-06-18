@@ -69,40 +69,6 @@
       "fee_rate": 0
     },
     {
-      "asset_name": "usd-coin",
-      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/usdc.png",
-      "token": {
-        "address": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
-        "name": "USD Coin",
-        "symbol": "USDC",
-        "decimals": 6,
-        "is_legacy": false
-      },
-      "oracle": {
-        "address": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
-        "pragma_key": "USDC/USD",
-        "timeout": 14400,
-        "number_of_sources": 4
-      },
-      "v_token": {
-        "v_token_name": "Vesu USD Coin",
-        "v_token_symbol": "vUSDC"
-      },
-      "debt_cap": 50000000,
-      "floor": 100,
-      "max_utilization": 0.95,
-      "target_utilization": 0.8,
-      "min_target_utilization": 0.78,
-      "max_target_utilization": 0.82,
-      "min_full_utilization_rate": "0.000000000160350400",
-      "max_full_utilization_rate": "0.000000035320611769",
-      "initial_full_utilization_rate": "0.000000013035786672",
-      "zero_utilization_rate": "0.000000000032134073",
-      "rate_half_life": 86400,
-      "target_rate_percent": 0.2,
-      "fee_rate": 0
-    },
-    {
       "asset_name": "tether",
       "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/usdt.png",
       "token": {
@@ -121,6 +87,40 @@
       "v_token": {
         "v_token_name": "Vesu Tether USD",
         "v_token_symbol": "vUSDT"
+      },
+      "debt_cap": 50000000,
+      "floor": 100,
+      "max_utilization": 0.95,
+      "target_utilization": 0.8,
+      "min_target_utilization": 0.78,
+      "max_target_utilization": 0.82,
+      "min_full_utilization_rate": "0.000000000160350400",
+      "max_full_utilization_rate": "0.000000035320611769",
+      "initial_full_utilization_rate": "0.000000013035786672",
+      "zero_utilization_rate": "0.000000000032134073",
+      "rate_half_life": 86400,
+      "target_rate_percent": 0.2,
+      "fee_rate": 0
+    },
+    {
+      "asset_name": "usd-coin",
+      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/usdc.png",
+      "token": {
+        "address": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "decimals": 6,
+        "is_legacy": false
+      },
+      "oracle": {
+        "address": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "pragma_key": "USDC/USD",
+        "timeout": 14400,
+        "number_of_sources": 4
+      },
+      "v_token": {
+        "v_token_name": "Vesu USD Coin",
+        "v_token_symbol": "vUSDC"
       },
       "debt_cap": 50000000,
       "floor": 100,
