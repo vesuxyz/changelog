@@ -1,0 +1,182 @@
+{
+  "singleton": "0x69d0eca40cb01eda7f3d76281ef524cecf8c35f4ca5acc862ff128e7432964b",
+  "distributor": "0x05443e1b4d540b5ffc096c0d4533cc71d36ddb7bd381624ec5ce254db95cc8e9",
+  "pools": [
+    {
+      "pool_id": "843471078868109043994407045333485539726819752573207893362353166067597145284",
+      "pool_name": "Genesis Pool",
+      "assets": [
+        {
+          "asset": "0x7809bb63f557736e49ff0ae4a64bd8aa6ea60e3f77f26c520cb92c24e3700d3",
+          "name": "Ether",
+          "symbol": "ETH",
+          "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/eth.png",
+          "vToken": "0x021fe2ca1b7e731e4a5ef7df2881356070c5d72db4b2d19f9195f6b641f75df0",
+          "listed_block_number": 77860
+        },
+        {
+          "asset": "0x63d32a3fa6074e72e7a1e06fe78c46a0c8473217773e19f11d8c8cbfc4ff8ca",
+          "name": "Wrapped BTC",
+          "symbol": "WBTC",
+          "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/wbtc.png",
+          "vToken": "0x06b0ef784eb49c85f4d9447f30d7f7212be65ce1e553c18d516c87131e81dbd6",
+          "listed_block_number": 77860
+        },
+        {
+          "asset": "0x27ef4670397069d7d5442cb7945b27338692de0d8896bdb15e6400cf5249f94",
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/usdc.png",
+          "vToken": "0x01610abab2ff987cdfb5e73cccbf7069cbb1a02bbfa5ee31d97cc30e29d89090",
+          "listed_block_number": 77860
+        },
+        {
+          "asset": "0x2cd937c3dccd4a4e125011bbe3189a6db0419bb6dd95c4b5ce5f6d834d8996",
+          "name": "Tether USD",
+          "symbol": "USDT",
+          "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/usdt.png",
+          "vToken": "0x032dd20efeb027ee51e676280df60c609ac6f6dcff798e4523515bc1668ed715",
+          "listed_block_number": 77860
+        },
+        {
+          "asset": "0x57181b39020af1416747a7d0d2de6ad5a5b721183136585e8774e1425efd5d2",
+          "name": "Starknet Wrapped Staked Ether",
+          "symbol": "wstETH",
+          "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/steth.png",
+          "vToken": "0x044a8304cd9d00a1730e4acbc31fb3a2f8cf1272d95c39c76e338841026fd001",
+          "listed_block_number": 77860
+        },
+        {
+          "asset": "0x772131070c7d56f78f3e46b27b70271d8ca81c7c52e3f62aa868fab4b679e43",
+          "name": "Starknet Token",
+          "symbol": "STRK",
+          "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/strk.png",
+          "vToken": "0x037ae3f583c8d644b7556c93a04b83b52fa96159b2b0cbd83c14d3122aef80a2",
+          "listed_block_number": 77860
+        }
+      ],
+      "pairs": [
+        {
+          "debt_asset": "0x7809bb63f557736e49ff0ae4a64bd8aa6ea60e3f77f26c520cb92c24e3700d3",
+          "collateral_asset": "0x63d32a3fa6074e72e7a1e06fe78c46a0c8473217773e19f11d8c8cbfc4ff8ca"
+        },
+        {
+          "debt_asset": "0x7809bb63f557736e49ff0ae4a64bd8aa6ea60e3f77f26c520cb92c24e3700d3",
+          "collateral_asset": "0x27ef4670397069d7d5442cb7945b27338692de0d8896bdb15e6400cf5249f94"
+        },
+        {
+          "debt_asset": "0x7809bb63f557736e49ff0ae4a64bd8aa6ea60e3f77f26c520cb92c24e3700d3",
+          "collateral_asset": "0x2cd937c3dccd4a4e125011bbe3189a6db0419bb6dd95c4b5ce5f6d834d8996"
+        },
+        {
+          "debt_asset": "0x7809bb63f557736e49ff0ae4a64bd8aa6ea60e3f77f26c520cb92c24e3700d3",
+          "collateral_asset": "0x57181b39020af1416747a7d0d2de6ad5a5b721183136585e8774e1425efd5d2"
+        },
+        {
+          "debt_asset": "0x7809bb63f557736e49ff0ae4a64bd8aa6ea60e3f77f26c520cb92c24e3700d3",
+          "collateral_asset": "0x772131070c7d56f78f3e46b27b70271d8ca81c7c52e3f62aa868fab4b679e43"
+        },
+        {
+          "debt_asset": "0x63d32a3fa6074e72e7a1e06fe78c46a0c8473217773e19f11d8c8cbfc4ff8ca",
+          "collateral_asset": "0x7809bb63f557736e49ff0ae4a64bd8aa6ea60e3f77f26c520cb92c24e3700d3"
+        },
+        {
+          "debt_asset": "0x63d32a3fa6074e72e7a1e06fe78c46a0c8473217773e19f11d8c8cbfc4ff8ca",
+          "collateral_asset": "0x27ef4670397069d7d5442cb7945b27338692de0d8896bdb15e6400cf5249f94"
+        },
+        {
+          "debt_asset": "0x63d32a3fa6074e72e7a1e06fe78c46a0c8473217773e19f11d8c8cbfc4ff8ca",
+          "collateral_asset": "0x2cd937c3dccd4a4e125011bbe3189a6db0419bb6dd95c4b5ce5f6d834d8996"
+        },
+        {
+          "debt_asset": "0x63d32a3fa6074e72e7a1e06fe78c46a0c8473217773e19f11d8c8cbfc4ff8ca",
+          "collateral_asset": "0x57181b39020af1416747a7d0d2de6ad5a5b721183136585e8774e1425efd5d2"
+        },
+        {
+          "debt_asset": "0x63d32a3fa6074e72e7a1e06fe78c46a0c8473217773e19f11d8c8cbfc4ff8ca",
+          "collateral_asset": "0x772131070c7d56f78f3e46b27b70271d8ca81c7c52e3f62aa868fab4b679e43"
+        },
+        {
+          "debt_asset": "0x27ef4670397069d7d5442cb7945b27338692de0d8896bdb15e6400cf5249f94",
+          "collateral_asset": "0x7809bb63f557736e49ff0ae4a64bd8aa6ea60e3f77f26c520cb92c24e3700d3"
+        },
+        {
+          "debt_asset": "0x27ef4670397069d7d5442cb7945b27338692de0d8896bdb15e6400cf5249f94",
+          "collateral_asset": "0x63d32a3fa6074e72e7a1e06fe78c46a0c8473217773e19f11d8c8cbfc4ff8ca"
+        },
+        {
+          "debt_asset": "0x27ef4670397069d7d5442cb7945b27338692de0d8896bdb15e6400cf5249f94",
+          "collateral_asset": "0x2cd937c3dccd4a4e125011bbe3189a6db0419bb6dd95c4b5ce5f6d834d8996"
+        },
+        {
+          "debt_asset": "0x27ef4670397069d7d5442cb7945b27338692de0d8896bdb15e6400cf5249f94",
+          "collateral_asset": "0x57181b39020af1416747a7d0d2de6ad5a5b721183136585e8774e1425efd5d2"
+        },
+        {
+          "debt_asset": "0x27ef4670397069d7d5442cb7945b27338692de0d8896bdb15e6400cf5249f94",
+          "collateral_asset": "0x772131070c7d56f78f3e46b27b70271d8ca81c7c52e3f62aa868fab4b679e43"
+        },
+        {
+          "debt_asset": "0x2cd937c3dccd4a4e125011bbe3189a6db0419bb6dd95c4b5ce5f6d834d8996",
+          "collateral_asset": "0x7809bb63f557736e49ff0ae4a64bd8aa6ea60e3f77f26c520cb92c24e3700d3"
+        },
+        {
+          "debt_asset": "0x2cd937c3dccd4a4e125011bbe3189a6db0419bb6dd95c4b5ce5f6d834d8996",
+          "collateral_asset": "0x63d32a3fa6074e72e7a1e06fe78c46a0c8473217773e19f11d8c8cbfc4ff8ca"
+        },
+        {
+          "debt_asset": "0x2cd937c3dccd4a4e125011bbe3189a6db0419bb6dd95c4b5ce5f6d834d8996",
+          "collateral_asset": "0x27ef4670397069d7d5442cb7945b27338692de0d8896bdb15e6400cf5249f94"
+        },
+        {
+          "debt_asset": "0x2cd937c3dccd4a4e125011bbe3189a6db0419bb6dd95c4b5ce5f6d834d8996",
+          "collateral_asset": "0x57181b39020af1416747a7d0d2de6ad5a5b721183136585e8774e1425efd5d2"
+        },
+        {
+          "debt_asset": "0x2cd937c3dccd4a4e125011bbe3189a6db0419bb6dd95c4b5ce5f6d834d8996",
+          "collateral_asset": "0x772131070c7d56f78f3e46b27b70271d8ca81c7c52e3f62aa868fab4b679e43"
+        },
+        {
+          "debt_asset": "0x57181b39020af1416747a7d0d2de6ad5a5b721183136585e8774e1425efd5d2",
+          "collateral_asset": "0x7809bb63f557736e49ff0ae4a64bd8aa6ea60e3f77f26c520cb92c24e3700d3"
+        },
+        {
+          "debt_asset": "0x57181b39020af1416747a7d0d2de6ad5a5b721183136585e8774e1425efd5d2",
+          "collateral_asset": "0x63d32a3fa6074e72e7a1e06fe78c46a0c8473217773e19f11d8c8cbfc4ff8ca"
+        },
+        {
+          "debt_asset": "0x57181b39020af1416747a7d0d2de6ad5a5b721183136585e8774e1425efd5d2",
+          "collateral_asset": "0x27ef4670397069d7d5442cb7945b27338692de0d8896bdb15e6400cf5249f94"
+        },
+        {
+          "debt_asset": "0x57181b39020af1416747a7d0d2de6ad5a5b721183136585e8774e1425efd5d2",
+          "collateral_asset": "0x2cd937c3dccd4a4e125011bbe3189a6db0419bb6dd95c4b5ce5f6d834d8996"
+        },
+        {
+          "debt_asset": "0x57181b39020af1416747a7d0d2de6ad5a5b721183136585e8774e1425efd5d2",
+          "collateral_asset": "0x772131070c7d56f78f3e46b27b70271d8ca81c7c52e3f62aa868fab4b679e43"
+        },
+        {
+          "debt_asset": "0x772131070c7d56f78f3e46b27b70271d8ca81c7c52e3f62aa868fab4b679e43",
+          "collateral_asset": "0x7809bb63f557736e49ff0ae4a64bd8aa6ea60e3f77f26c520cb92c24e3700d3"
+        },
+        {
+          "debt_asset": "0x772131070c7d56f78f3e46b27b70271d8ca81c7c52e3f62aa868fab4b679e43",
+          "collateral_asset": "0x63d32a3fa6074e72e7a1e06fe78c46a0c8473217773e19f11d8c8cbfc4ff8ca"
+        },
+        {
+          "debt_asset": "0x772131070c7d56f78f3e46b27b70271d8ca81c7c52e3f62aa868fab4b679e43",
+          "collateral_asset": "0x27ef4670397069d7d5442cb7945b27338692de0d8896bdb15e6400cf5249f94"
+        },
+        {
+          "debt_asset": "0x772131070c7d56f78f3e46b27b70271d8ca81c7c52e3f62aa868fab4b679e43",
+          "collateral_asset": "0x2cd937c3dccd4a4e125011bbe3189a6db0419bb6dd95c4b5ce5f6d834d8996"
+        },
+        {
+          "debt_asset": "0x772131070c7d56f78f3e46b27b70271d8ca81c7c52e3f62aa868fab4b679e43",
+          "collateral_asset": "0x57181b39020af1416747a7d0d2de6ad5a5b721183136585e8774e1425efd5d2"
+        }
+      ]
+    }
+  ]
+}
