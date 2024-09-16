@@ -1,5 +1,6 @@
 {
   "singleton": "0x02545b2e5d519fc230e9cd781046d3a64e092114f07e44771e0d719d148725ef",
+  "multiply": "0x1b87a918da699a0cea7cd8bef54a4a919be74d47b75aae5a05563562db7dfc8",
   "distributor": "0x0387f3eb1d98632fbe3440a9f1385aec9d87b6172491d3dd81f1c35a7c61048f",
   "pools": [
     {
@@ -13,7 +14,7 @@
           "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/eth.png",
           "vToken": "0x021fe2ca1b7e731e4a5ef7df2881356070c5d72db4b2d19f9195f6b641f75df0",
           "listed_block_number": 654244
-        }, 
+        },
         {
           "asset": "0x03fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac",
           "name": "Wrapped BTC",
