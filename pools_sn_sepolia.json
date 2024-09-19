@@ -1,6 +1,7 @@
 {
   "singleton": "0x69d0eca40cb01eda7f3d76281ef524cecf8c35f4ca5acc862ff128e7432964b",
   "multiply": "0x5c25588809f1373bbe5ce3128715a4024cb5e067a0489526a9314ec02c410fc",
+  "liquidate": "0x7ca34e9fb392d4095f8f1647017a78ab4e8d50a86d258e7590c267eefd9c90b",
   "distributor": "0x05443e1b4d540b5ffc096c0d4533cc71d36ddb7bd381624ec5ce254db95cc8e9",
   "pools": [
     {
