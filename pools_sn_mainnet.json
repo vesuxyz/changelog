@@ -12,6 +12,7 @@
           "asset": "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
           "name": "Ether",
           "symbol": "ETH",
+          "decimals": 18,
           "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/eth.png",
           "vToken": "0x021fe2ca1b7e731e4a5ef7df2881356070c5d72db4b2d19f9195f6b641f75df0",
           "listed_block_number": 654244
@@ -20,6 +21,7 @@
           "asset": "0x03fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac",
           "name": "Wrapped BTC",
           "symbol": "WBTC",
+          "decimals": 8,
           "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/wbtc.png",
           "vToken": "0x06b0ef784eb49c85f4d9447f30d7f7212be65ce1e553c18d516c87131e81dbd6",
           "listed_block_number": 654244
@@ -28,6 +30,7 @@
           "asset": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
           "name": "USD Coin",
           "symbol": "USDC",
+          "decimals": 6,
           "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/usdc.png",
           "vToken": "0x01610abab2ff987cdfb5e73cccbf7069cbb1a02bbfa5ee31d97cc30e29d89090",
           "listed_block_number": 654244
@@ -36,6 +39,7 @@
           "asset": "0x068f5c6a61780768455de69077e07e89787839bf8166decfbf92b645209c0fb8",
           "name": "Tether USD",
           "symbol": "USDT",
+          "decimals": 6,
           "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/usdt.png",
           "vToken": "0x032dd20efeb027ee51e676280df60c609ac6f6dcff798e4523515bc1668ed715",
           "listed_block_number": 654244
@@ -44,6 +48,7 @@
           "asset": "0x042b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
           "name": "Starknet Wrapped Staked Ether",
           "symbol": "wstETH",
+          "decimals": 18,
           "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/steth.png",
           "vToken": "0x044a8304cd9d00a1730e4acbc31fb3a2f8cf1272d95c39c76e338841026fd001",
           "listed_block_number": 654244
@@ -52,6 +57,7 @@
           "asset": "0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d",
           "name": "Starknet Token",
           "symbol": "STRK",
+          "decimals": 18,
           "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/strk.png",
           "vToken": "0x037ae3f583c8d644b7556c93a04b83b52fa96159b2b0cbd83c14d3122aef80a2",
           "listed_block_number": 654244
