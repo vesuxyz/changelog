@@ -12,7 +12,7 @@
       },
       "pragma": {
         "oracle": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
-        "summary_stats": "0x0",
+        "summary_stats": "0x0379afb83d2f8e38ab08252750233665a812a24278aacdde52475618edbf879c",
         "pragma_key": "ETH/USD",
         "timeout": 14400,
         "number_of_sources": 4
@@ -47,7 +47,7 @@
       },
       "pragma": {
         "oracle": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
-        "summary_stats": "0x0",
+        "summary_stats": "0x0379afb83d2f8e38ab08252750233665a812a24278aacdde52475618edbf879c",
         "pragma_key": "WBTC/USD",
         "timeout": 14400,
         "number_of_sources": 4
@@ -83,7 +83,7 @@
       },
       "pragma": {
         "oracle": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
-        "summary_stats": "0x0",
+        "summary_stats": "0x0379afb83d2f8e38ab08252750233665a812a24278aacdde52475618edbf879c",
         "pragma_key": "USDC/USD",
         "timeout": 14400,
         "number_of_sources": 4
@@ -118,7 +118,7 @@
       },
       "pragma": {
         "oracle": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
-        "summary_stats": "0x0",
+        "summary_stats": "0x0379afb83d2f8e38ab08252750233665a812a24278aacdde52475618edbf879c",
         "pragma_key": "USDT/USD",
         "timeout": 14400,
         "number_of_sources": 4
@@ -153,7 +153,7 @@
       },
       "pragma": {
         "oracle": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
-        "summary_stats": "0x0",
+        "summary_stats": "0x0379afb83d2f8e38ab08252750233665a812a24278aacdde52475618edbf879c",
         "pragma_key": "WSTETH/USD",
         "timeout": 14400,
         "number_of_sources": 4
@@ -188,7 +188,7 @@
       },
       "pragma": {
         "oracle": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
-        "summary_stats": "0x0",
+        "summary_stats": "0x0379afb83d2f8e38ab08252750233665a812a24278aacdde52475618edbf879c",
         "pragma_key": "STRK/USD",
         "timeout": 14400,
         "number_of_sources": 4

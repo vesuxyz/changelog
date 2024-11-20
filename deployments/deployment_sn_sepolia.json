@@ -4,7 +4,7 @@
   "extensionCL": "0x0",
   "pragma": {
     "oracle": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
-    "summary_stats": "0x0"
+    "summary_stats": "0x0379afb83d2f8e38ab08252750233665a812a24278aacdde52475618edbf879c"
   },
   "assets": [
     "0x7809bb63f557736e49ff0ae4a64bd8aa6ea60e3f77f26c520cb92c24e3700d3",
