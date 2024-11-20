@@ -86,7 +86,7 @@
         "pragma_key": "USDC/USD", 
         "timeout": 14400,
         "number_of_sources": 4
-      }
+      },
       "v_token": {
         "v_token_name": "Vesu USD Coin",
         "v_token_symbol": "vUSDC"
@@ -156,7 +156,7 @@
         "pragma_key": "WSTETH/USD", 
         "timeout": 14400,
         "number_of_sources": 4
-      }
+      },
       "v_token": {
         "v_token_name": "Vesu Wrapped Staked Ether",
         "v_token_symbol": "vWSTETH"
