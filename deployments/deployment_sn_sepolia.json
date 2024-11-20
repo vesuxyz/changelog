@@ -1,7 +1,11 @@
 {
   "singleton": "0x69d0eca40cb01eda7f3d76281ef524cecf8c35f4ca5acc862ff128e7432964b",
-  "extension": "0x18e0277fef34ae5687da68b7810a04230a45ff9686068868528d2e07fae705d",
-  "oracle": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
+  "extensionPO": "0x18e0277fef34ae5687da68b7810a04230a45ff9686068868528d2e07fae705d",
+  "extensionCL": "0x0",
+  "pragma": {
+    "oracle": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
+    "summary_stats": "0x0"
+  },
   "assets": [
     "0x7809bb63f557736e49ff0ae4a64bd8aa6ea60e3f77f26c520cb92c24e3700d3",
     "0x63d32a3fa6074e72e7a1e06fe78c46a0c8473217773e19f11d8c8cbfc4ff8ca",

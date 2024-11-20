@@ -10,8 +10,9 @@
         "decimals": 18,
         "is_legacy": false
       },
-      "oracle": {
-        "address": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+      "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
         "pragma_key": "ETH/USD",
         "timeout": 14400,
         "number_of_sources": 4
@@ -44,8 +45,9 @@
         "decimals": 8,
         "is_legacy": false
       },
-      "oracle": {
-        "address": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+      "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
         "pragma_key": "WBTC/USD",
         "timeout": 14400,
         "number_of_sources": 4
@@ -78,12 +80,13 @@
         "decimals": 6,
         "is_legacy": false
       },
-      "oracle": {
-        "address": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
-        "pragma_key": "USDC/USD",
+      "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
+        "pragma_key": "USDC/USD", 
         "timeout": 14400,
         "number_of_sources": 4
-      },
+      }
       "v_token": {
         "v_token_name": "Vesu USD Coin",
         "v_token_symbol": "vUSDC"
@@ -112,8 +115,9 @@
         "decimals": 6,
         "is_legacy": false
       },
-      "oracle": {
-        "address": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+      "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
         "pragma_key": "USDT/USD",
         "timeout": 14400,
         "number_of_sources": 4
@@ -146,12 +150,13 @@
         "decimals": 18,
         "is_legacy": false
       },
-      "oracle": {
-        "address": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
-        "pragma_key": "WSTETH/USD",
+      "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
+        "pragma_key": "WSTETH/USD", 
         "timeout": 14400,
         "number_of_sources": 4
-      },
+      }
       "v_token": {
         "v_token_name": "Vesu Wrapped Staked Ether",
         "v_token_symbol": "vWSTETH"
@@ -180,8 +185,9 @@
         "decimals": 18,
         "is_legacy": false
       },
-      "oracle": {
-        "address": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+      "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
         "pragma_key": "STRK/USD",
         "timeout": 14400,
         "number_of_sources": 4

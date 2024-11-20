@@ -10,8 +10,9 @@
         "decimals": 18,
         "is_legacy": false
       },
-      "oracle": {
-        "address": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
+      "pragma": {
+        "oracle": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
+        "summary_stats": "0x0",
         "pragma_key": "ETH/USD",
         "timeout": 14400,
         "number_of_sources": 4
@@ -44,8 +45,9 @@
         "decimals": 8,
         "is_legacy": false
       },
-      "oracle": {
-        "address": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
+      "pragma": {
+        "oracle": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
+        "summary_stats": "0x0",
         "pragma_key": "WBTC/USD",
         "timeout": 14400,
         "number_of_sources": 4
@@ -79,9 +81,9 @@
         "decimals": 6,
         "is_legacy": false
       },
-
-      "oracle": {
-        "address": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
+      "pragma": {
+        "oracle": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
+        "summary_stats": "0x0",
         "pragma_key": "USDC/USD",
         "timeout": 14400,
         "number_of_sources": 4
@@ -114,8 +116,9 @@
         "decimals": 6,
         "is_legacy": false
       },
-      "oracle": {
-        "address": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
+      "pragma": {
+        "oracle": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
+        "summary_stats": "0x0",
         "pragma_key": "USDT/USD",
         "timeout": 14400,
         "number_of_sources": 4
@@ -148,8 +151,9 @@
         "decimals": 18,
         "is_legacy": false
       },
-      "oracle": {
-        "address": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
+      "pragma": {
+        "oracle": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
+        "summary_stats": "0x0",
         "pragma_key": "WSTETH/USD",
         "timeout": 14400,
         "number_of_sources": 4
@@ -182,8 +186,9 @@
         "decimals": 18,
         "is_legacy": false
       },
-      "oracle": {
-        "address": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
+      "pragma": {
+        "oracle": "0x4d50f735be96c4ad60b4f6e4ae92ae4b65e84d89497860116dd8bcee3d39c13",
+        "summary_stats": "0x0",
         "pragma_key": "STRK/USD",
         "timeout": 14400,
         "number_of_sources": 4

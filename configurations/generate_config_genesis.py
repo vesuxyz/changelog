@@ -36,8 +36,9 @@ asset_parameters = [
         "decimals": 18,
         "is_legacy": False
     },
-    "oracle": {
-        "address": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+    "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
         "pragma_key": "ETH/USD",
         "timeout": 14400,
         "number_of_sources": 4
@@ -70,9 +71,10 @@ asset_parameters = [
         "decimals": 8,
         "is_legacy": False
     },
-    "oracle": {
-        "address": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
-        "pragma_key": "WBTC/USD",
+    "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
+        "pragma_key": "WBTC/USD", 
         "timeout": 14400,
         "number_of_sources": 4
     },
@@ -104,8 +106,9 @@ asset_parameters = [
         "decimals": 6,
         "is_legacy": False
     },
-    "oracle": {
-        "address": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+    "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
         "pragma_key": "USDC/USD",
         "timeout": 14400,
         "number_of_sources": 4
@@ -138,9 +141,10 @@ asset_parameters = [
         "decimals": 6,
         "is_legacy": False
     },
-    "oracle": {
-        "address": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
-        "pragma_key": "USDT/USD",
+    "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
+        "pragma_key": "USDT/USD", 
         "timeout": 14400,
         "number_of_sources": 4
     },
@@ -172,8 +176,9 @@ asset_parameters = [
         "decimals": 18,
         "is_legacy": False
     },
-    "oracle": {
-        "address": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+    "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
         "pragma_key": "WSTETH/USD",
         "timeout": 14400,
         "number_of_sources": 4
@@ -206,9 +211,10 @@ asset_parameters = [
         "decimals": 18,
         "is_legacy": False
     },
-    "oracle": {
-        "address": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
-        "pragma_key": "STRK/USD",
+    "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
+        "pragma_key": "STRK/USD", 
         "timeout": 14400,
         "number_of_sources": 4
     },
