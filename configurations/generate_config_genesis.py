@@ -49,7 +49,6 @@ asset_parameters = [
         "v_token_name": "Vesu Ether",
         "v_token_symbol": "vETH"
     },
-    "debt_cap": 50000000,
     "floor": 100,
     "max_utilization": 0.95,
     "target_utilization": 0.8,
@@ -86,7 +85,6 @@ asset_parameters = [
         "v_token_name": "Vesu Wrapped BTC",
         "v_token_symbol": "vWBTC"
     },
-    "debt_cap": 50000000,
     "floor": 100,
     "max_utilization": 0.95,
     "target_utilization": 0.8,
@@ -123,7 +121,6 @@ asset_parameters = [
         "v_token_name": "Vesu USD Coin",
         "v_token_symbol": "vUSDC"
     },
-    "debt_cap": 50000000,
     "floor": 100,
     "max_utilization": 0.95,
     "target_utilization": 0.8,
@@ -160,7 +157,6 @@ asset_parameters = [
         "v_token_name": "Vesu Tether USD",
         "v_token_symbol": "vUSDT"
     },
-    "debt_cap": 50000000,
     "floor": 100,
     "max_utilization": 0.95,
     "target_utilization": 0.8,
@@ -197,7 +193,6 @@ asset_parameters = [
         "v_token_name": "Vesu Wrapped Staked Ether",
         "v_token_symbol": "vWSTETH"
     },
-    "debt_cap": 50000000,
     "floor": 100,
     "max_utilization": 0.95,
     "target_utilization": 0.8,
@@ -234,7 +229,6 @@ asset_parameters = [
         "v_token_name": "Vesu Starknet",
         "v_token_symbol": "vSTRK"
     },
-    "debt_cap": 50000000,
     "floor": 100,
     "max_utilization": 0.95,
     "target_utilization": 0.8,
@@ -257,181 +251,211 @@ pair_parameters = [
     "debt_asset_name": "ethereum",
     "collateral_asset_name": "wrapped-bitcoin",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "ethereum",
     "collateral_asset_name": "usd-coin",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "ethereum",
     "collateral_asset_name": "tether",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "ethereum",
     "collateral_asset_name": "wrapped-steth",
     "liquidation_discount": 0.95,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "ethereum",
     "collateral_asset_name": "starknet",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 3
+    "risk_level_factor": 3,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "wrapped-bitcoin",
     "collateral_asset_name": "ethereum",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "wrapped-bitcoin",
     "collateral_asset_name": "usd-coin",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "wrapped-bitcoin",
     "collateral_asset_name": "tether",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "wrapped-bitcoin",
     "collateral_asset_name": "wrapped-steth",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "wrapped-bitcoin",
     "collateral_asset_name": "starknet",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 3
+    "risk_level_factor": 3,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "usd-coin",
     "collateral_asset_name": "ethereum",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "usd-coin",
     "collateral_asset_name": "wrapped-bitcoin",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "usd-coin",
     "collateral_asset_name": "tether",
     "liquidation_discount": 0.95,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "usd-coin",
     "collateral_asset_name": "wrapped-steth",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "usd-coin",
     "collateral_asset_name": "starknet",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 3
+    "risk_level_factor": 3,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "tether",
     "collateral_asset_name": "ethereum",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "tether",
     "collateral_asset_name": "wrapped-bitcoin",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "tether",
     "collateral_asset_name": "usd-coin",
     "liquidation_discount": 0.95,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "tether",
     "collateral_asset_name": "wrapped-steth",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "tether",
     "collateral_asset_name": "starknet",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 3
+    "risk_level_factor": 3,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "wrapped-steth",
     "collateral_asset_name": "ethereum",
     "liquidation_discount": 0.95,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "wrapped-steth",
     "collateral_asset_name": "wrapped-bitcoin",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "wrapped-steth",
     "collateral_asset_name": "usd-coin",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "wrapped-steth",
     "collateral_asset_name": "tether",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 5
+    "risk_level_factor": 5,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "wrapped-steth",
     "collateral_asset_name": "starknet",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 3
+    "risk_level_factor": 3,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "starknet",
     "collateral_asset_name": "ethereum",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 3
+    "risk_level_factor": 3,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "starknet",
     "collateral_asset_name": "wrapped-bitcoin",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 3
+    "risk_level_factor": 3,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "starknet",
     "collateral_asset_name": "usd-coin",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 3
+    "risk_level_factor": 3,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "starknet",
     "collateral_asset_name": "tether",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 3
+    "risk_level_factor": 3,
+    "debt_cap": 50000000
   },
   {
     "debt_asset_name": "starknet",
     "collateral_asset_name": "wrapped-steth",
     "liquidation_discount": 0.9,
-    "risk_level_factor": 3
+    "risk_level_factor": 3,
+    "debt_cap": 50000000
   }
 ]
 
@@ -926,7 +950,7 @@ for p in pair_parameters:
   debt_asset_name = p["debt_asset_name"]
   collateral_asset_name = p["collateral_asset_name"]
   discount = np.round(1 - p["liquidation_discount"],2)
-  debt_cap = asset_params.query('asset_name == @debt_asset_name').debt_cap.iloc[0]
+  debt_cap = p["debt_cap"]
   liq = liquidity.query("collateral_asset_name == @collateral_asset_name and debt_asset_name == @debt_asset_name and depth == @discount").liquidity.iloc[0]
   vola = volatility[(collateral_asset_name, debt_asset_name)]
   exponent = (1/p["risk_level_factor"]) * (vola / np.sqrt(liq / debt_cap))
