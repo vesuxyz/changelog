@@ -15,7 +15,9 @@
         "summary_stats": "0x0379afb83d2f8e38ab08252750233665a812a24278aacdde52475618edbf879c",
         "pragma_key": "ETH/USD",
         "timeout": 14400,
-        "number_of_sources": 4
+        "number_of_sources": 4,
+        "start_time_offset": 0,
+        "time_window": 0
       },
       "v_token": {
         "v_token_name": "Vesu Ether",
@@ -50,7 +52,9 @@
         "summary_stats": "0x0379afb83d2f8e38ab08252750233665a812a24278aacdde52475618edbf879c",
         "pragma_key": "WBTC/USD",
         "timeout": 14400,
-        "number_of_sources": 4
+        "number_of_sources": 4,
+        "start_time_offset": 0,
+        "time_window": 0
       },
       "v_token": {
         "v_token_name": "Vesu Wrapped BTC",
@@ -86,7 +90,9 @@
         "summary_stats": "0x0379afb83d2f8e38ab08252750233665a812a24278aacdde52475618edbf879c",
         "pragma_key": "USDC/USD",
         "timeout": 14400,
-        "number_of_sources": 4
+        "number_of_sources": 4,
+        "start_time_offset": 0,
+        "time_window": 0
       },
       "v_token": {
         "v_token_name": "Vesu USD Coin",
@@ -121,7 +127,9 @@
         "summary_stats": "0x0379afb83d2f8e38ab08252750233665a812a24278aacdde52475618edbf879c",
         "pragma_key": "USDT/USD",
         "timeout": 14400,
-        "number_of_sources": 4
+        "number_of_sources": 4,
+        "start_time_offset": 0,
+        "time_window": 0
       },
       "v_token": {
         "v_token_name": "Vesu Tether USD",
@@ -156,7 +164,9 @@
         "summary_stats": "0x0379afb83d2f8e38ab08252750233665a812a24278aacdde52475618edbf879c",
         "pragma_key": "WSTETH/USD",
         "timeout": 14400,
-        "number_of_sources": 4
+        "number_of_sources": 4,
+        "start_time_offset": 0,
+        "time_window": 0
       },
       "v_token": {
         "v_token_name": "Vesu Wrapped Staked Ether",
@@ -191,7 +201,9 @@
         "summary_stats": "0x0379afb83d2f8e38ab08252750233665a812a24278aacdde52475618edbf879c",
         "pragma_key": "STRK/USD",
         "timeout": 14400,
-        "number_of_sources": 4
+        "number_of_sources": 4,
+        "start_time_offset": 0,
+        "time_window": 0
       },
       "v_token": {
         "v_token_name": "Vesu Starknet",
