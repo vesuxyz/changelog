@@ -1,8 +1,8 @@
 {
   "singleton": "0x2545b2e5d519fc230e9cd781046d3a64e092114f07e44771e0d719d148725ef",
   "extension": "0x2334189e831d804d4a11d3f71d4a982ec82614ac12ed2e9ca2f8da4e6374fa",
-  "extensionPO": "0x2b7094d574198a808cc24857914739a14fd038ca2f7b751a02cc4735f876b3e",
-  "extensionCL": "0x6096fb2b8c5c6651d6d3240fcec61dbc8ed42f637ca90eb3f9ea604171ac9f6",
+  "extensionPO": "0x5589194fbec7ecc041408b97eab4f646baefba704895ba2e5921b60b59e6259",
+  "extensionCL": "0x4e09a4fa7ab1a6b08693f5d89ab0b9db2de00a9b7d1c8f8ad286a665effd446",
   "pragma": {
     "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
     "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd"
