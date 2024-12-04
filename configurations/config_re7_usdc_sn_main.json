@@ -1,0 +1,242 @@
+{
+  "asset_parameters": [
+    {
+      "asset_name": "ethereum",
+      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/eth.png",
+      "token": {
+        "address": "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18,
+        "is_legacy": false
+      },
+      "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
+        "pragma_key": "ETH/USD",
+        "timeout": 0,
+        "number_of_sources": 1,
+        "start_time_offset": 0,
+        "time_window": 0,
+        "aggregation_mode": "median"
+      },
+      "v_token": {
+        "v_token_name": "Vesu Ether Re7 USDC",
+        "v_token_symbol": "vETH-Re7USDC"
+      },
+      "floor": 10,
+      "max_utilization": 0.95,
+      "target_utilization": 0.9,
+      "min_target_utilization": 0.88,
+      "max_target_utilization": 0.92,
+      "min_full_utilization_rate": "0.000000013035786672",
+      "max_full_utilization_rate": "0.000000044569649971",
+      "initial_full_utilization_rate": "0.000000013035786672",
+      "zero_utilization_rate": "0.000000000032134073",
+      "rate_half_life": 432000,
+      "target_rate_percent": 0.2,
+      "fee_rate": 0.2
+    },
+    {
+      "asset_name": "wrapped-bitcoin",
+      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/wbtc.png",
+      "token": {
+        "address": "0x03fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac",
+        "name": "Wrapped BTC",
+        "symbol": "WBTC",
+        "decimals": 8,
+        "is_legacy": false
+      },
+      "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
+        "pragma_key": "WBTC/USD",
+        "timeout": 0,
+        "number_of_sources": 1,
+        "start_time_offset": 0,
+        "time_window": 0,
+        "aggregation_mode": "median"
+      },
+      "v_token": {
+        "v_token_name": "Vesu Wrapped BTC Re7 USDC",
+        "v_token_symbol": "vWBTC-Re7USDC"
+      },
+      "floor": 10,
+      "max_utilization": 0.95,
+      "target_utilization": 0.9,
+      "min_target_utilization": 0.88,
+      "max_target_utilization": 0.92,
+      "min_full_utilization_rate": "0.000000013035786672",
+      "max_full_utilization_rate": "0.000000044569649971",
+      "initial_full_utilization_rate": "0.000000013035786672",
+      "zero_utilization_rate": "0.000000000032134073",
+      "rate_half_life": 432000,
+      "target_rate_percent": 0.2,
+      "fee_rate": 0.2
+    },
+    {
+      "asset_name": "usd-coin",
+      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/usdc.png",
+      "token": {
+        "address": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "decimals": 6,
+        "is_legacy": false
+      },
+      "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
+        "pragma_key": "USDC/USD", 
+        "timeout": 0,
+        "number_of_sources": 1,
+        "start_time_offset": 0,
+        "time_window": 0,
+        "aggregation_mode": "median"
+      },
+      "v_token": {
+        "v_token_name": "Vesu USD Coin Re7 USDC",
+        "v_token_symbol": "vUSDC-Re7USDC"
+      },
+      "floor": 10,
+      "max_utilization": 0.95,
+      "target_utilization": 0.9,
+      "min_target_utilization": 0.88,
+      "max_target_utilization": 0.92,
+      "min_full_utilization_rate": "0.000000013035786672",
+      "max_full_utilization_rate": "0.000000044569649971",
+      "initial_full_utilization_rate": "0.000000013035786672",
+      "zero_utilization_rate": "0.000000000032134073",
+      "rate_half_life": 432000,
+      "target_rate_percent": 0.2,
+      "fee_rate": 0.2
+    },
+    {
+      "asset_name": "wrapped-steth",
+      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/steth.png",
+      "token": {
+        "address": "0x042b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
+        "name": "Starknet Wrapped Staked Ether",
+        "symbol": "wstETH",
+        "decimals": 18,
+        "is_legacy": false
+      },
+      "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
+        "pragma_key": "WSTETH/USD", 
+        "timeout": 0,
+        "number_of_sources": 1,
+        "start_time_offset": 0,
+        "time_window": 0,
+        "aggregation_mode": "median"
+      },
+      "v_token": {
+        "v_token_name": "Vesu W-Staked Ether Re7 USDC",
+        "v_token_symbol": "vwstETH-Re7USDC"
+      },
+      "floor": 10,
+      "max_utilization": 0.95,
+      "target_utilization": 0.9,
+      "min_target_utilization": 0.88,
+      "max_target_utilization": 0.92,
+      "min_full_utilization_rate": "0.000000013035786672",
+      "max_full_utilization_rate": "0.000000044569649971",
+      "initial_full_utilization_rate": "0.000000013035786672",
+      "zero_utilization_rate": "0.000000000032134073",
+      "rate_half_life": 432000,
+      "target_rate_percent": 0.2,
+      "fee_rate": 0.2
+    },
+    {
+      "asset_name": "starknet",
+      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/strk.png",
+      "token": {
+        "address": "0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d",
+        "name": "Starknet Token",
+        "symbol": "STRK",
+        "decimals": 18,
+        "is_legacy": false
+      },
+      "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
+        "pragma_key": "STRK/USD",
+        "timeout": 0,
+        "number_of_sources": 1,
+        "start_time_offset": 0,
+        "time_window": 0,
+        "aggregation_mode": "median"
+      },
+      "v_token": {
+        "v_token_name": "Vesu Starknet Token Re7 USDC",
+        "v_token_symbol": "vSTRK-Re7USDC"
+      },
+      "floor": 10,
+      "max_utilization": 0.95,
+      "target_utilization": 0.9,
+      "min_target_utilization": 0.88,
+      "max_target_utilization": 0.92,
+      "min_full_utilization_rate": "0.000000013035786672",
+      "max_full_utilization_rate": "0.000000044569649971",
+      "initial_full_utilization_rate": "0.000000013035786672",
+      "zero_utilization_rate": "0.000000000032134073",
+      "rate_half_life": 432000,
+      "target_rate_percent": 0.2,
+      "fee_rate": 0.2
+    }
+  ],
+  "pair_parameters": [
+    {
+      "collateral_asset_name": "ethereum",
+      "debt_asset_name": "usd-coin",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.87,
+      "shutdown_ltv": 0,
+      "debt_cap": 2000000,
+      "collateral_asset": "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+      "debt_asset": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8"
+    },
+    {
+      "collateral_asset_name": "usd-coin",
+      "debt_asset_name": "wrapped-steth",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.87,
+      "shutdown_ltv": 0,
+      "debt_cap": 2000000,
+      "collateral_asset": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+      "debt_asset": "0x042b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2"
+    },
+    {
+      "collateral_asset_name": "wrapped-bitcoin",
+      "debt_asset_name": "usd-coin",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.68,
+      "shutdown_ltv": 0,
+      "debt_cap": 2000000,
+      "collateral_asset": "0x03fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac",
+      "debt_asset": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8"
+    },
+    {
+      "collateral_asset_name": "starknet",
+      "debt_asset_name": "usd-coin",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.68,
+      "shutdown_ltv": 0,
+      "debt_cap": 2000000,
+      "collateral_asset": "0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d",
+      "debt_asset": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8"
+    }
+  ],
+  "pool_parameters": {
+    "name": "Re7 USDC",
+    "owner": "0x040ba3ce5615a5c605e0caa592b4883052c804f8b1b326c1cab2d5820f003aa1",
+    "fee_recipient": "0x040ba3ce5615a5c605e0caa592b4883052c804f8b1b326c1cab2d5820f003aa1",
+    "recovery_period": 0,
+    "subscription_period": 0
+  }
+}
