@@ -77,7 +77,7 @@
   ],
   "pair_parameters": [
     {
-      "collateral_asset_name": "endur staked starknet",
+      "collateral_asset_name": "staked starknet token",
       "debt_asset_name": "starknet",
       "liquidation_discount": 0.9,
       "risk_level_factor": 5,
