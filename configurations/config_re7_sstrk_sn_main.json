@@ -1,0 +1,98 @@
+{
+  "asset_parameters": [
+    {
+      "asset_name": "starknet",
+      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/strk.png",
+      "token": {
+        "address": "0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d",
+        "name": "Starknet Token",
+        "symbol": "STRK",
+        "decimals": 18,
+        "is_legacy": false
+      },
+      "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
+        "pragma_key": "STRK/USD",
+        "timeout": 0,
+        "number_of_sources": 1,
+        "start_time_offset": 0,
+        "time_window": 0,
+        "aggregation_mode": "median"
+      },
+      "v_token": {
+        "v_token_name": "Vesu Starknet Token Re7 sSTRK",
+        "v_token_symbol": "vSTRK-Re7sSTRK"
+      },
+      "floor": 10,
+      "max_utilization": 0.95,
+      "target_utilization": 0.9,
+      "min_target_utilization": 0.88,
+      "max_target_utilization": 0.92,
+      "min_full_utilization_rate": "0.000000013035786672",
+      "max_full_utilization_rate": "0.000000044569649971",
+      "initial_full_utilization_rate": "0.000000013035786672",
+      "zero_utilization_rate": "0.000000000032134073",
+      "rate_half_life": 432000,
+      "target_rate_percent": 0.2,
+      "fee_rate": 0.2
+    },
+    {
+      "asset_name": "staked starknet token",
+      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/strk.png",
+      "token": {
+        "address": "0x0356f304b154d29d2a8fe22f1cb9107a9b564a733cf6b4cc47fd121ac1af90c9",
+        "name": "Staked Starknet Token",
+        "symbol": "sSTRK",
+        "decimals": 18,
+        "is_legacy": false
+      },
+      "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
+        "pragma_key": "STRK/USD",
+        "timeout": 0,
+        "number_of_sources": 1,
+        "start_time_offset": 0,
+        "time_window": 0,
+        "aggregation_mode": "median"
+      },
+      "v_token": {
+        "v_token_name": "Vesu Staked Starknet Token",
+        "v_token_symbol": "vsSTRK"
+      },
+      "floor": 10,
+      "max_utilization": 0.95,
+      "target_utilization": 0.9,
+      "min_target_utilization": 0.88,
+      "max_target_utilization": 0.92,
+      "min_full_utilization_rate": "0.000000013035786672",
+      "max_full_utilization_rate": "0.000000044569649971",
+      "initial_full_utilization_rate": "0.000000013035786672",
+      "zero_utilization_rate": "0.000000000032134073",
+      "rate_half_life": 432000,
+      "target_rate_percent": 0.2,
+      "fee_rate": 0.2
+    }
+  ],
+  "pair_parameters": [
+    {
+      "collateral_asset_name": "staked starknet token",
+      "debt_asset_name": "starknet",
+      "liquidation_discount": 0.9,
+      "risk_level_factor": 5,
+      "max_ltv": 0.87,
+      "shutdown_ltv": 0,
+      "debt_cap": 100000,
+      "collateral_asset": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+      "debt_asset": "0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d"
+    }
+  ],
+  "pool_parameters": {
+    "name": "Re7 sSTRK",
+    "owner": "0x040ba3ce5615a5c605e0caa592b4883052c804f8b1b326c1cab2d5820f003aa1",
+    "fee_recipient": "0x040ba3ce5615a5c605e0caa592b4883052c804f8b1b326c1cab2d5820f003aa1",
+    "recovery_period": 0,
+    "subscription_period": 0
+  }
+}
