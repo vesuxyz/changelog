@@ -145,12 +145,12 @@
       "fee_rate": 0
     },
     {
-      "asset_name": "wrapped-steth",
+      "asset_name": "wrapped-steth-legacy",
       "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/steth.png",
       "token": {
         "address": "0x042b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
-        "name": "Starknet Wrapped Staked Ether",
-        "symbol": "wstETH",
+        "name": "Legacy Starknet Wrapped Staked Ether",
+        "symbol": "wstETH(legacy)",
         "decimals": 18,
         "is_legacy": false
       },
@@ -164,8 +164,8 @@
         "time_window": 0
       },
       "v_token": {
-        "v_token_name": "Vesu Wrapped Staked Ether",
-        "v_token_symbol": "vWSTETH"
+        "v_token_name": "Vesu Legacy Wrapped Staked Ether",
+        "v_token_symbol": "vWSTETH(legacy)"
       },
       "floor": 100,
       "max_utilization": 0.95,
@@ -202,6 +202,42 @@
       "v_token": {
         "v_token_name": "Vesu Starknet",
         "v_token_symbol": "vSTRK"
+      },
+      "floor": 100,
+      "max_utilization": 0.95,
+      "target_utilization": 0.8,
+      "min_target_utilization": 0.78,
+      "max_target_utilization": 0.82,
+      "min_full_utilization_rate": "0.000000000160350400",
+      "max_full_utilization_rate": "0.000000035320611769",
+      "initial_full_utilization_rate": "0.000000013035786672",
+      "zero_utilization_rate": "0.000000000032134073",
+      "rate_half_life": 86400,
+      "target_rate_percent": 0.2,
+      "fee_rate": 0
+    },
+    {
+      "asset_name": "wrapped-steth",
+      "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/steth.png",
+      "token": {
+        "address": "0x0057912720381af14b0e5c87aa4718ed5e527eab60b3801ebf702ab09139e38b",
+        "name": "Wrapped Staked Ether",
+        "symbol": "wstETH",
+        "decimals": 18,
+        "is_legacy": false
+      },
+      "pragma": {
+        "oracle": "0x2a85bd616f912537c50a49a4076db02c00b29b2cdc8a197ce92ed1837fa875b",
+        "summary_stats": "0x049eefafae944d07744d07cc72a5bf14728a6fb463c3eae5bca13552f5d455fd",
+        "pragma_key": "WSTETH/USD", 
+        "timeout": 14400,
+        "number_of_sources": 4,
+        "start_time_offset": 0,
+        "time_window": 0
+      },
+      "v_token": {
+        "v_token_name": "Vesu Wrapped Staked Ether",
+        "v_token_symbol": "vWSTETH"
       },
       "floor": 100,
       "max_utilization": 0.95,
