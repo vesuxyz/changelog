@@ -149,7 +149,7 @@
       "logo_uri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/steth.png",
       "token": {
         "address": "0x042b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
-        "name": "Legacy Starknet Wrapped Staked Ether",
+        "name": "Starknet Wrapped Staked Ether",
         "symbol": "wstETH(legacy)",
         "decimals": 18,
         "is_legacy": false
@@ -164,7 +164,7 @@
         "time_window": 0
       },
       "v_token": {
-        "v_token_name": "Vesu Legacy Wrapped Staked Ether",
+        "v_token_name": "Vesu Wrapped Staked Ether",
         "v_token_symbol": "vWSTETH(legacy)"
       },
       "floor": 100,
