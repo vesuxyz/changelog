@@ -23,7 +23,7 @@
         "v_token_name": "Vesu Ether",
         "v_token_symbol": "vETH"
       },
-      "floor": 1000,
+      "floor": 10,
       "max_utilization": 0.95,
       "target_utilization": 0.8,
       "min_target_utilization": 0.78,
@@ -59,7 +59,7 @@
         "v_token_name": "Vesu Wrapped BTC",
         "v_token_symbol": "vWBTC"
       },
-      "floor": 1000,
+      "floor": 10,
       "max_utilization": 0.95,
       "target_utilization": 0.8,
       "min_target_utilization": 0.78,
@@ -95,7 +95,7 @@
         "v_token_name": "Vesu USD Coin",
         "v_token_symbol": "vUSDC"
       },
-      "floor": 1000,
+      "floor": 10,
       "max_utilization": 0.95,
       "target_utilization": 0.8,
       "min_target_utilization": 0.78,
@@ -131,7 +131,7 @@
         "v_token_name": "Vesu Tether USD",
         "v_token_symbol": "vUSDT"
       },
-      "floor": 1000,
+      "floor": 10,
       "max_utilization": 0.95,
       "target_utilization": 0.8,
       "min_target_utilization": 0.78,
@@ -167,7 +167,7 @@
         "v_token_name": "Vesu Wrapped Staked Ether",
         "v_token_symbol": "vWSTETH(legacy)"
       },
-      "floor": 1000,
+      "floor": 10,
       "max_utilization": 0.95,
       "target_utilization": 0.8,
       "min_target_utilization": 0.78,
@@ -203,7 +203,7 @@
         "v_token_name": "Vesu Starknet",
         "v_token_symbol": "vSTRK"
       },
-      "floor": 1000,
+      "floor": 10,
       "max_utilization": 0.95,
       "target_utilization": 0.8,
       "min_target_utilization": 0.78,
@@ -239,7 +239,7 @@
         "v_token_name": "Vesu Wrapped Staked Ether",
         "v_token_symbol": "vWSTETH"
       },
-      "floor": 1000,
+      "floor": 10,
       "max_utilization": 0.95,
       "target_utilization": 0.8,
       "min_target_utilization": 0.78,
