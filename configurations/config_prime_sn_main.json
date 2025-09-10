@@ -492,6 +492,6 @@
   "pool_parameters": {
     "name": "Prime",
     "owner": "0x05028372e584Acb5e14De6737C6B46dd9319508ba584bA8c651ef848Bedd6A7d",
-    "fee_recipient": "0x05028372e584Acb5e14De6737C6B46dd9319508ba584bA8c651ef848Bedd6A7d",
+    "fee_recipient": "0x05028372e584Acb5e14De6737C6B46dd9319508ba584bA8c651ef848Bedd6A7d"
   }
 }
