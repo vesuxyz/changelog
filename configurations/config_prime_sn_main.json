@@ -34,7 +34,7 @@
       "zero_utilization_rate": "0",
       "rate_half_life": 432000,
       "target_rate_percent": 0.2,
-      "fee_rate": 200000000000000000
+      "fee_rate": 0.2
     },
     {
       "asset_name": "wrapped-bitcoin",
@@ -70,7 +70,7 @@
       "zero_utilization_rate": "0",
       "rate_half_life": 432000,
       "target_rate_percent": 0.2,
-      "fee_rate": 200000000000000000
+      "fee_rate": 0.2
     },
     {
       "asset_name": "usd-coin",
@@ -106,7 +106,7 @@
       "zero_utilization_rate": "0",
       "rate_half_life": 432000,
       "target_rate_percent": 0.2,
-      "fee_rate": 200000000000000000
+      "fee_rate": 0.2
     },
     {
       "asset_name": "tether",
@@ -142,7 +142,7 @@
       "zero_utilization_rate": "0",
       "rate_half_life": 432000,
       "target_rate_percent": 0.2,
-      "fee_rate": 200000000000000000
+      "fee_rate": 0.2
     },
     {
       "asset_name": "starknet",
@@ -178,7 +178,7 @@
       "zero_utilization_rate": "0",
       "rate_half_life": 432000,
       "target_rate_percent": 0.2,
-      "fee_rate": 200000000000000000
+      "fee_rate": 0.2
     },
     {
       "asset_name": "wrapped-steth",
@@ -214,7 +214,7 @@
       "zero_utilization_rate": "0",
       "rate_half_life": 432000,
       "target_rate_percent": 0.2,
-      "fee_rate": 200000000000000000
+      "fee_rate": 0.2
     }
   ],
   "pair_parameters": [
